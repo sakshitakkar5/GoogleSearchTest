@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ABC/IdeaProjects/MavenFirstProject/src/test/java/org/example/GoogleSearch.java">
+        <classes>
+            <class name="org.example.GoogleSearchtest">
+                <methods>
+                    <include name="googleTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ABC/IdeaProjects/MavenFirstProject/src/test/java/org/example/AppTest.java">
+        <classes>
+            <class name="org.example.AppTest">
+                <methods>
+                    <include name="testcase1_login"/>
+                    <include name="testcase2_login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
